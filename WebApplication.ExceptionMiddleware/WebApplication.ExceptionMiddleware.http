@@ -1,0 +1,6 @@
+@WebApplication.ExceptionMiddleware_HostAddress = http://localhost:5037
+
+GET {{WebApplication.ExceptionMiddleware_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
